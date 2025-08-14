@@ -19,38 +19,9 @@ var config = {
     title: 'Kentsel Boşluğun Üretimi: Büyükdere Plajı / Production of Urban Void: Büyükdere Beach',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
-        {
-            id: '1',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 13,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+      
         {
             id: '2',
             alignment: 'centered',
@@ -60,8 +31,8 @@ var config = {
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
+                zoom: 12,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -89,13 +60,13 @@ var config = {
             image: 'https://i.ibb.co/XrFHDWj0/b-y1.png',
             description: '',
             location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
+                center: [29.04975695625951,41.16330207576428],
+                zoom: 18,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -111,65 +82,6 @@ var config = {
                 // }
             ]
         },
-        {
-            id: '4',
-            alignment: 'left',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: '5',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+      
     ]
 };
